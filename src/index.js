@@ -1,4 +1,5 @@
 import validator from "./validator.js";
+
 const botonValidar = document.getElementById("botonValid");
 const resultado = document.getElementById("resultado");
 const ingresar = document.querySelector(".ingresar");
@@ -19,9 +20,13 @@ botonValidar.addEventListener("click", () => {
 
   const valid = validator.isValid(card);
   if (valid) {
-    resultado.innerHTML = `Tu tarjeta ${enmascarar} es válida`;
+    resultado.innerHTML = `¡Genial! Tu tarjeta ${enmascarar} si es compatible, ya puedes registrarte.`;
   } else {
-    resultado.innerHTML = `Tu tarjeta ${enmascarar} es inválida`;
+    resultado.innerHTML = `Lo sentimos, tu tarjeta ${enmascarar} es incompatible con nuestro servidor.`;
   }
+});
+const refresh = document.getElementById("refresh");
+refresh.addEventListener("click", () => {
+  location.reload();
 });
 //console.log(validator);

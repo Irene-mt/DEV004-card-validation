@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+header{
+    background-color: #BA94D1;
+    height: 80px;
+    overflow: hidden;
+    text-align: center;
+}
+h1, h5{
+    color: #ffffff;
+    font-family: 'Questrial', sans-serif;
+}
+h3, li,{
+    color: #4c3466;
+}
+body{
+    background-color: #FBFACD;
+}
+.bienvenida{
+    background-color: #DEBACE;
+    padding: 40px;
+    margin: 40px;
+    width: 400px;
+    height: 400px;
+    text-align: left;
+    font-family: 'Questrial', sans-serif;
+    float: left;
+    position: relative;
+    top: -15px; 
+    left: -5px;
+}
+.mujeres{
+    height: 480px;
+    position: relative;
+    top: 25px;
+    left: -20px;
+}
+.mujeres2{
+    height: 480px;
+    position: relative;
+    top: 25px; 
+    left: -25px;
+}
+.mujeres3{
+    height: 150px;
+    position: relative;
+    top: -20px; 
+    left: 45px;
+}
+.ingresar{
+    padding: 10px;
+    margin-left: 350px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+}
+.cardNumber { 
+    font-family: 'Questrial', sans-serif;
+    font-size: 18px; 
+    font-weight: 400; 
+    color: #7F669D; 
+    background:#ffffff;
+}
+.botonValid{
+    background-color: #7F669D;
+    border: white;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.botonValid:hover{
+    background-color: #644d7f;
+}
+.mostrar{
+    display: none;
+    background-color: #e1d0d9;
+    padding: 40px;
+    margin: 40px;
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    margin-left: 350px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.refresh{
+    background-color: #7F669D;
+    border: white;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.refresh:hover{
+    background-color: #644d7f
+}
+footer{
+    background-color: #BA94D1;
+    height: 50px;
+    overflow: hidden;
+    text-align: center;
+}
